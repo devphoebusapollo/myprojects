@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Sign Up and Log In</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="all-wrapper">
+        <h1>Login to your account</h1>
+        <div class="wrapper">
+        <div class="inner-wrapper">
+        <div class="log-in">
+            <img src="./PinClipart.com_silhouette-headshot-clip-art_4167138.png">
+            <input class="input" id="log-in-input" placeholder="Userame" type="text" required>
+            <input class="input" id="password-input" placeholder="Password" type="password" required>
+            <br>
+            <input class="inner-buttons" type="button" value="Log-In">
+            <br>
+            <p id="forgot"><a href="">Forgot password?</a></p>
+        </div>
+        <div class="sign-up">
+            <label for="first-name">First Name</label>
+            <br>
+            <input class="input-sign" id="first-name" type="text">
+            <br>
+            <label for="last-name">Last Name</label>
+            <br>
+            <input class="input-sign" id="last-name" type="text">
+            <br>
+            <label for="b-day">Birthday</label>
+            <br>
+            <input class="input-sign" id="b-day" type="date">
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input class="input-sign" id="email" placeholder="example@email.com" type="email">
+            <br>
+            <label for="sign-username">Username</label>
+            <br>
+            <input class="input-sign" id="sign-username" placeholder="@example" type="text">
+            <br>
+            <label for="sign-password">Password</label>
+            <br>
+            <input class="input-sign" id="sign-password" type="password">
+            <br>
+            <input class="inner-buttons" type="button" value="Register">
+        </div>
+        </div>
+        </div>
+        <div class="buttons">
+        <input type="button" id="log-in-scroll" value="Log-In here" onclick="scrollLogIn()">
+        <input type="button" id="sign-up-scroll" value="Register here" onclick="scrollSignUp()">
+        </div>
+    </div>
+        <script type="text/javascript" src="./scripts.js"></script>
+    </body>
+</html>
