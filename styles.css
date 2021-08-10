@@ -1,0 +1,167 @@
+* {
+    font-family: "Century Gothic";
+}
+
+.all-wrapper {
+    position: relative;
+    top: 40%;
+    width: 90vw;
+    height: auto;
+    transform: translateY(-40%);
+    margin: 0 auto;
+}
+
+/*wrapper div*/
+.wrapper {
+    position: relative;
+    width: 35%;
+    height: 65%;
+    margin: 0 auto;
+    background-color: rgba(29, 218, 208, 0.5);
+    overflow: hidden;
+}
+
+.inner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 100%;
+    transform: translateX(0);
+    transition: transform .3s linear;
+}
+/*log in div*/
+.log-in {
+    width: 100%;
+    height: 100%;
+    font-size: .9em;
+    margin: 0;
+    padding: 11em 5em 5em 5em;
+}
+img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin: .5em auto;
+}
+
+/*sign up div*/
+.sign-up {
+    width: 100%;
+    height: 100%;
+    font-size: .9em;
+    margin: 0;
+    padding: 9em 5em 5em 5em;
+}
+
+/*buttons*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    outline: none;
+}
+
+.inner-buttons {
+    font-size: 1.2em;
+    display: block;
+    margin: 1em auto;
+    padding: .6em;
+    width: 90%;
+    border: none;
+    background-color: rgb(5, 95, 95);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+#log-in-scroll {
+    font-weight: bold;
+    width: 200px;
+    margin: 2.5px;
+    border: none;
+    background-color: rgb(5, 95, 95);
+    color: white;
+    padding: .7em;
+    outline: none;
+}
+
+#sign-up-scroll {
+    font-weight: bold;
+    width: 200px;
+    margin: 2.5px;
+    border: none;
+    background-color: rgb(5, 95, 95);
+    color: white;
+    padding: .7em;
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(5, 95, 95);
+}
+
+.input {
+    width: 90%;
+    height: 2.6em;
+    border: none;
+    background-color: white;
+}
+.input-sign {
+    width: 100%;
+    height: 2em;
+    border: none;
+    background-color: white;
+}
+#log-in-input {
+    margin: 1em 1em .5em 1em;
+    outline: none;
+}
+#password-input {
+    margin: 1em 1em .5em 1em;
+    outline: none;
+}
+#first-name {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+#last-name {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+#b-day {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+#email {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+#sign-username {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+#sign-password {
+    margin: .2em 1em .2em 0;
+    outline: none;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(5, 95, 95);
+
+}
+
+#forgot {
+    font-size: .8em;
+    text-align: center;
+}
+
+#forgot a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(5, 95, 95);
+}
